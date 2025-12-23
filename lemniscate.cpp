@@ -426,7 +426,7 @@ private:
     bool is_first_run = true;
     int laps = 0;
 
-    float t_z_ = .5f;
+    float t_z_ = 2.5f;
 
     std::atomic<uint64_t> timestamp_; //!< common synced timestamped
 
